@@ -1,5 +1,4 @@
 from django.shortcuts import render
-# from django.http import HttpResponse
 
 
 def home(request):
@@ -9,7 +8,7 @@ def home(request):
 
 
 def recipe(request, id):
-    return render(request, 'recipes/pages/home.html', context={
+    return render(request, 'recipes/pages/recipe_view.html', context={
         'name': 'benjamin zerpa',       
     }) 
 
