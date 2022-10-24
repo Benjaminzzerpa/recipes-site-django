@@ -1,1 +1,1 @@
-# CursoDjango
+# ProjetoDjango
